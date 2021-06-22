@@ -1,4 +1,4 @@
-# Youtube-Video-Popularity-Prediction
+# Youtube Video Popularity Prediction
 
 ## Introducion
 Youtube is the world-famous video sharing website platform that allows people to upload all kinds of videos. 
@@ -49,7 +49,9 @@ Overall, compared to the model with Gaussian distribution, the model with Laplac
 Moreover, 87.59% of the test data has their true value in the 95% confidence interval of the predicted Laplace distribution, while only 34.91% true value of the test data fall into the 95% confidence interval of the predicted Gasssian distribution, which also shows that the model with Laplace distribution assumption is more suitable of this task. 
 
 [1]	J, M. (2019, June 03). Trending YouTube Video Statistics. Retrieved December 16, 2020, from https://www.kaggle.com/datasnaek/youtube-new
+
 [2] Li, Y., Eng, K., & Zhang, L. (n.d.). YouTube Videos Prediction: Will this video be popular?Retrieved December 05, 2020, from
 http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647615.pdf
+
 [3]	Reasonable Doubt: Get Onto the Top 35 MNIST Leaderboard by Quantifying Aleatoric Uncertainty. (n.d.). Retrieved December 16, 2020, from
 https://www.capitalone.com/tech/machine-learning/get-onto-the-top-35-mnist-leaderboard-by-qu antifying-aleatoric-uncertainty/

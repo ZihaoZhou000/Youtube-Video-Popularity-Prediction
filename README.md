@@ -43,7 +43,7 @@ If the red line falls into the deep blue area, it is considered as an acceptable
 ![Gaussian](https://user-images.githubusercontent.com/54859964/122877427-96e74180-d304-11eb-9d4f-851867a0520d.png)
 predicted Gaussian distribution
 ![Laplace](https://user-images.githubusercontent.com/54859964/122877432-98b10500-d304-11eb-9595-ede5896bbf6e.png)
-predicted Laplace distribution
+</center>predicted Laplace distribution<center>
 
 Overall, compared to the model with Gaussian distribution, the model with Laplace distribution assumption has a much smaller loss (negative log likelihood) on both training and test data, suggesting the latter is a better model, probably because the Laplace distribution has a heavy tail and therefore more tolerant to the outliers. 
 Moreover, 87.59% of the test data has their true value in the 95% confidence interval of the predicted Laplace distribution, while only 34.91% true value of the test data fall into the 95% confidence interval of the predicted Gasssian distribution, which also shows that the model with Laplace distribution assumption is more suitable of this task. 

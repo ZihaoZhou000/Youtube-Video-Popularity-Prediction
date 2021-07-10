@@ -5,7 +5,7 @@ Youtube is the world-famous video sharing website platform that allows people to
 There are so many video uploaded every day, but the time of users is limited. Therefore, a good title is crucial. 
 Most users makes the decision on whether to click on the vedio at the first glimpse on the title.
 
-In this project, a method to represent the video popularity is introduced, and a deep learning model to predict the popularity video scores based on the title, tags and disciption is developed. which will help content creater to choose the best title that attract more viewers and generate more revenue from sponsored companies or Youtube itself.
+In this project, a method to represent the video popularity is introduced, and a deep learning model to predict the popularity video scores based on the title, tags and disciption is developed, which will help content creater to choose the best title that attract more viewers and generate more revenue from sponsored companies or Youtube itself.
 The prediction model are created to output the probability distributions instead of a single value of the target to handle heteroscedastic uncertainty.
 
 ## Data Preprocessing
